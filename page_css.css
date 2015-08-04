@@ -1,0 +1,28 @@
+.tab_nav{
+width:5%
+}
+
+.tab_main{
+border : Orange 3 solid; Margin:20; width:100%; background:aliceblue; padding:15
+}
+
+.tab_left{
+border-right:black 1 solid;
+width:200px
+}
+
+a:link{
+	 color:'lightblue';
+	text-decoration:none;
+	}
+a:active {  
+ 	  color:'green';
+	}
+a:visited{ 
+	   color:'black';
+	}
+a:hover{
+	 color:'grey';
+	background-color:lightblue;
+	}
+
