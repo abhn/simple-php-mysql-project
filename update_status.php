@@ -90,7 +90,15 @@
 		$query = "insert into status_here values (NULL,'$status',$user_id,NOW(),NULL)";
 		$qwer = MySQLi_Query($resid,$query);
 		if($qwer) {
-			echo " <tr align='center' id='sam' id='sam'> <td colspan='5'> <font color='green'> Status has been updated! </font> </td> </tr>";
+			?>
+			<script type="text/javascript" src="notify.js"></script>
+			<script>
+			$(document).ready(function() {
+			  $.notify(
+			  "Status Updated!","success");
+			});
+			</script>
+			<?php
 		}
 		else {
 			echo "<tr align='center'> <td colspan='5'> <font color='green'> Sorry, Something went wrong! Refresh the page and try again! </font> </td> </tr>";

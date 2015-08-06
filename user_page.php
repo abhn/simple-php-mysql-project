@@ -81,8 +81,16 @@
 						$_SESSION["email"] = $array["email"];
 						$_SESSION["gender"] = $array["gender"];
 						if($no_msg!=1) {
-						echo "<tr align='center' id='sam'> <td colspan='5'> <font color='green'>Login Successful, ".$_SESSION["name"]."! </font> </td> </tr>";
-						}
+							?>
+							<script type="text/javascript" src="notify.js"></script>
+							<script>
+							$(document).ready(function() {
+							  $.notify(
+							  "Login Successful!","success");
+							});
+							</script>
+						<!--echo "<tr align='center' id='sam'> <td colspan='5'> <font color='green'>Login Successful, ".$_SESSION["name"]."! </font> </td> </tr>"; -->
+						<?php }
 						echo "<tr> 
 						<td width='5%' valign='top'> 
 							<table>

@@ -126,8 +126,17 @@
 						$res=MySQLi_Query($resid,$query);
 						
 						if($res) {
-							echo "<tr align='center'> <td colspan='5' id='sam'> <font color='green'> Message Sent Successfully! </font> </td> </tr>";
+							?>
+						<script type="text/javascript" src="notify.js"></script>
+						<script>
+						$(document).ready(function() {
+						  $.notify(
+						  "Message Sent!","success");
+						});
+						</script>
+							<?php
 						}
+						
 						
 						else {
 							echo "<tr align='center'> <td colspan='5'> <font color='red'> Message Sending Failed! </font> </td> </tr>";
