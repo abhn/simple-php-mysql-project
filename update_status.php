@@ -87,7 +87,7 @@
 		
 		if($resid) {
 		$user_id = $_SESSION['user_id'];
-		$query = "insert into status_here values (NULL,'$status',$user_id,NOW(),NULL)";
+		$query = "insert into status_here (status,user_id,timestamp,future_use) values ('$status',$user_id,NOW(),NULL)";
 		$qwer = MySQLi_Query($resid,$query);
 		if($qwer) {
 			?>
