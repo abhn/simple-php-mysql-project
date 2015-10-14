@@ -1,3 +1,5 @@
+use these commands to create a db
+
 >>>create database shangout;
 
 >>>use shangout

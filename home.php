@@ -27,30 +27,11 @@
 				<td> <hr> </td> 
 			</tr>
 			
-			<tr> 
-				<td width='5%' valign='top'> Objectives of Website:- <br> 
-				<ul type='square'>
-					<li> To send messages to your friends.
-					<li> To find new friends.
-					<li> To update your status.
-					<li> To make your Profile.
-				</ul>
-				</td>
+			<tr>
 				
 				<td colspan='4'> 
-				<p> <h3> Hello! Visitor </h3> <br>
-						Welcome to Student's Hangout, A project made for Sending messages and uploading your profile so that your friends can watch out.
-						<br>
-						<h2> We thank following Personalities:-</h2>
-						<ul type='disk'>
-							<li> Project Head:- <a href='http://www.santoshkabirsir.com' target='_blank'> Santosh Kabir Sir </a>(Lecturer)
-							<li> Top Investors:-
-								<ul type='circle'>
-									<li><a href='https://www.google.com' target='_blank'>Google</a>
-									<li><a href='https://www.facebook.com' target='_blank'>Facebook</a>
-									<li><a href='https://www.twitter.com' target='_blank'>Twitter</a>
-								</ul>
-						</ul>
+				<p> 
+					  <h3>Welcome to Socioexplore</h3>
 				</p>	
 				</td>
 				
